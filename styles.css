@@ -53,6 +53,23 @@ main {
     background-color: #7b9edb;
 }
 
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+footer a {
+    color: #92BAF3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 600px) {
     .button-container {
         flex-direction: column;
@@ -70,21 +87,5 @@ main {
         flex-direction: column;
         gap: 10px;
         align-items: center;
-    }
-    footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #333;
-}
-
-footer a {
-    color: #92BAF3;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
     }
 }
