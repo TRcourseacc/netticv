@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokemus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kokemus</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" class="btn-nav">Etusivu</a>
+        <a href="kuka.html" class="btn-nav">Kuka?</a>
+    </nav>
+
+    <main>
+        <p>Tietoa kokemuksestasi tähän.</p>
+    </main>
+</body>
+</html>
