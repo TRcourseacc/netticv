@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #92BAF3;
     color: white;
     padding: 10px 0;
 }
@@ -42,7 +42,7 @@ main {
 .btn, .btn-nav {
     text-decoration: none;
     padding: 15px 30px;
-    background-color: #4CAF50;
+    background-color: #92BAF3;
     color: white;
     font-size: 18px;
     border-radius: 5px;
@@ -50,7 +50,7 @@ main {
 }
 
 .btn:hover, .btn-nav:hover {
-    background-color: #45a049;
+    background-color: #92BAF3;
 }
 
 @media only screen and (max-width: 600px) {
