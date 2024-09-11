@@ -71,4 +71,20 @@ main {
         gap: 10px;
         align-items: center;
     }
+    footer {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+    }
+    
+    footer a {
+        color: #92BAF3;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
 }
