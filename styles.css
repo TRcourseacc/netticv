@@ -42,7 +42,7 @@ main {
 .btn, .btn-nav {
     text-decoration: none;
     padding: 15px 30px;
-    background-color: #92BAF3; /* Päivitetty väri */
+    background-color: #92BAF3;
     color: white;
     font-size: 18px;
     border-radius: 5px;
@@ -50,7 +50,7 @@ main {
 }
 
 .btn:hover, .btn-nav:hover {
-    background-color: #7b9edb; /* Tummentaa väriä hover-tilassa */
+    background-color: #7b9edb;
 }
 
 @media only screen and (max-width: 600px) {
