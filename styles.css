@@ -1,5 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    header h1, header h2, header h3, header h4, header h5, header h6 {
+        font-family: 'Atma', sans-serif;
+    }
+    
+
+    font-family: Roboto, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
