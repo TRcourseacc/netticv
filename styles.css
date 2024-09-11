@@ -70,6 +70,13 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer .footer-icon {
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 @media only screen and (max-width: 600px) {
     .button-container {
         flex-direction: column;
