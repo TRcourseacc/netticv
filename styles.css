@@ -24,12 +24,12 @@ nav a {
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
-    background-color: #003366; /* added consistent background color */
-    border-radius: 5px; /* added rounded corners for consistency */
+    background-color: #003366;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #007bff;
+    background-color: #346A9D;
     color: #ffffff;
 }
 
