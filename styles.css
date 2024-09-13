@@ -34,6 +34,13 @@ main {
     margin: 20px;
 }
 
+main {
+    max-width: 800px;
+    margin: 0 auto;    
+    padding: 20px;
+    text-align: center;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
