@@ -31,18 +31,15 @@ nav a:hover {
 }
 
 main {
-    margin: 20px;
-}
-
-main {
     max-width: 800px;
     margin: 0 auto;    
     padding: 20px;
     text-align: center;
 }
+
 #backToTop {
-    display: block; /* Nappi näkyy sivulla normaalisti */
-    margin: 40px auto 20px auto; /* Keskitetään nappi ja lisätään marginaalia ylös ja alas */
+    display: block; 
+    margin: 40px auto 20px auto;
     font-size: 18px;
     background-color: #92BAF3;
     color: white;
@@ -51,34 +48,39 @@ main {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #backToTop:hover {
-    background-color: #4CAF50;
+    background-color: #7b9edb; 
+    color: black;
 }
 
 footer {
-    padding-top: 20px;
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
+    font-size: 14px;
+    color: #333;
 }
 
-#backToTop:hover {
-    background-color: #4CAF50;
+footer a {
+    color: #92BAF3;
+    text-decoration: none;
 }
 
-footer {
-    margin-top: 80px; /* Asetetaan footer alkamaan napin jälkeen */
-    padding-top: 20px;
+footer a:hover {
+    text-decoration: underline;
 }
 
-#backToTop:hover {
-    background-color: #4CAF50; /* Vaihda hover-väri */
+.footer-icon {
+    width: 1em; 
+    height: 1em; 
+    vertical-align: middle; 
+    margin-right: 8px; 
+    display: inline-block;
 }
 
-#backToTop:hover {
-    background-color: #4CAF50; /* Vaihda hover-väri */
-}
 .center-image {
     display: flex;
     justify-content: center;
@@ -109,31 +111,6 @@ footer {
 
 .btn:hover, .btn-nav:hover {
     background-color: #7b9edb;
-}
-
-footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #333;
-}
-
-footer a {
-    color: #92BAF3;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-.footer-icon {
-    width: 1em; 
-    height: 1em; 
-    vertical-align: middle; 
-    margin-right: 8px; 
-    display: inline-block;
 }
 
 @media only screen and (max-width: 600px) {
