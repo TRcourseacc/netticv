@@ -40,6 +40,45 @@ main {
     padding: 20px;
     text-align: center;
 }
+#backToTop {
+    display: block; /* Nappi näkyy sivulla normaalisti */
+    margin: 40px auto 5px auto; /* Keskitetään nappi ja lisätään marginaalia ylös ja alas */
+    font-size: 18px;
+    background-color: #92BAF3;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#backToTop:hover {
+    background-color: #4CAF50;
+}
+
+footer {
+    margin-top: 80px; /* Asetetaan footer alkamaan napin jälkeen */
+    padding-top: 20px;
+}
+
+#backToTop:hover {
+    background-color: #4CAF50; /* Vaihda hover-väri */
+}
+
+#backToTop:hover {
+    background-color: #4CAF50; /* Vaihda hover-väri */
+}
 .center-image {
     display: flex;
     justify-content: center;
