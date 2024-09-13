@@ -52,8 +52,8 @@ main {
 }
 
 #backToTop:hover {
-    background-color: #7b9edb; 
-    color: black;
+    background-color: #7b9edb; /* Muuta hover-tilan väri haluamaksesi */
+    color: black; /* Tekstin väri hover-tilassa */
 }
 
 footer {
