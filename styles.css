@@ -48,7 +48,7 @@ main {
 
 .center-image img {
     max-width: 100%; 
-    height: auto; /* Säilyttää kuvan mittasuhteet */
+    height: auto;
 }
 
 .button-container {
