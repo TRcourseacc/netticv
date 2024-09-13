@@ -1,10 +1,7 @@
-body {
-    header h1, header h2, header h3, header h4, header h5, header h6 {
-        font-family: 'Atma', sans-serif;
-    }
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-    font-family: Roboto, sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
