@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #92BAF3;
     color: #ffffff;
     padding: 10px 0;
 }
@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ffffff;
+    background-color: #ddd;
     color: black;
 }
 
@@ -48,7 +48,7 @@ main {
 
 .center-image img {
     max-width: 100%; 
-    height: auto;
+    height: auto; /* Säilyttää kuvan mittasuhteet */
 }
 
 .button-container {
@@ -61,7 +61,7 @@ main {
 .btn, .btn-nav {
     text-decoration: none;
     padding: 15px 30px;
-    background-color: #000000;
+    background-color: #92BAF3;
     color: #ffffff;
     font-size: 18px;
     border-radius: 5px;
@@ -73,15 +73,15 @@ main {
 }
 
 footer {
-    background-color: #6f6d6d;
+    background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    color: #ffffff;
+    color: #333;
 }
 
 footer a {
-    color: #ffffff;
+    color: #92BAF3;
     text-decoration: none;
 }
 
