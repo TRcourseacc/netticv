@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #92BAF3;
+    background-color: #000000;
     color: #ffffff;
     padding: 10px 0;
 }
@@ -61,7 +61,7 @@ main {
 .btn, .btn-nav {
     text-decoration: none;
     padding: 15px 30px;
-    background-color: #92BAF3;
+    background-color: #000000;
     color: #ffffff;
     font-size: 18px;
     border-radius: 5px;
