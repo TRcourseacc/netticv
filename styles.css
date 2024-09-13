@@ -42,7 +42,7 @@ main {
 }
 #backToTop {
     display: block; /* Nappi näkyy sivulla normaalisti */
-    margin: 40px auto 5px auto; /* Keskitetään nappi ja lisätään marginaalia ylös ja alas */
+    margin: 40px auto 20px auto; /* Keskitetään nappi ja lisätään marginaalia ylös ja alas */
     font-size: 18px;
     background-color: #92BAF3;
     color: white;
