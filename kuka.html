@@ -11,10 +11,10 @@
         <h1>Kuka olen</h1>
     </header>
 
-    <nav>
-        <a href="/netticv" class="btn-nav">Etusivu</a>
-        <a href="/netticv/kuka" class="btn-nav">Kuka olen</a>
-        <a href="/netticv/kokemus" class="btn-nav">Kokemus</a>
+    <nav role="navigation">
+        <a href="/netticv" class="btn-nav" accesskey="h">Etusivu</a>
+        <a href="/netticv/kuka" class="btn-nav" accesskey="a">Kuka olen</a>
+        <a href="/netticv/kokemus" class="btn-nav" accesskey="c">Kokemus</a>
     </nav>
 
     <main>
@@ -39,7 +39,7 @@
         </section>
     </main>
 
-    <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Takaisin ylös</button>
+    <button id="backToTop" aria-label="Takaisin ylös" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Takaisin ylös</button>
     <footer>
         <p>Ota yhteyttä</p>
         <p><img src="email-icon.svg" class="footer-icon" alt="Sähköpostikuvake"> <a href="mailto:esimerkki@example.com">esimerkki@example.com</a></p>
